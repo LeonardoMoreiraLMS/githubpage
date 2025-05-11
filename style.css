@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #ccc;
+}
+h2 {
+    color: #222;
+}
+.sobre-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sobre-content .foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+    margin-top: 40px;
+}
